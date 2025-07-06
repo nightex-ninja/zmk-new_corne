@@ -123,10 +123,10 @@
         layer_4 {
             display-name = "Boss";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                &mmv MOVE_UP                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                                                 &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                &mmv MOVE_UP                     &trans          &mkp LCLK       &mkp MB3      &mkp MB2         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans          &trans          &trans        &trans           &trans  &trans
+                        &trans  &trans  &trans                                                                 &trans          &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
